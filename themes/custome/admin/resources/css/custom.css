@@ -1,0 +1,26 @@
+/* Change Header Background Color */
+.pf-v5-c-page__header {
+    background-color: #2c3e50; /* Your desired header color */
+}
+
+/* Change Sidebar Background Color */
+.pf-v5-c-page__sidebar {
+    background-color: #34495e; /* Your desired sidebar color */
+}
+
+/* Change Sidebar Link Colors */
+.pf-v5-c-nav__link {
+    color: #ecf0f1; /* Text color for sidebar links */
+}
+
+.pf-v5-c-nav__link:hover {
+    color: #16a085; /* Hover color for sidebar links */
+}
+
+/* Add Custom Logo */
+.pf-v5-c-brand img {
+    content: url('/themes/custom/admin/Auth.png'); /* Path to your logo */
+    height: 40px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
+}
+

@@ -1,0 +1,118 @@
+/* General page styling */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper for the entire login container */
+#kc-login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Login container */
+#kc-login-container {
+    background-color: #d9d9d9; /* Grey background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Header styling */
+#kc-login-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#kc-login-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Form styling */
+#kc-login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold; /* Bold input field titles */
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded input fields */
+    font-size: 14px;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Input hover effects */
+.form-group input:hover {
+    border-color: #888; /* Darker border on hover */
+    background-color: #f9f9f9;
+}
+
+/* Password visibility toggle button */
+#password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 35%;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #888;
+    outline: none;
+}
+
+/* Password visibility toggle hover effect */
+#password-toggle:hover {
+    color: #333;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Login button styling */
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px; /* Rounded button */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Login button hover effects */
+.btn-login:hover {
+    background-color: #555;
+    transform: scale(1.05); /* Slight enlargement on hover */
+}
+
